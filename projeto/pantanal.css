@@ -1,34 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f7f7;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f7f7;
+  margin: 0;
+  padding: 0;
 }
 /*cabeçalho*/
 header {
-    background-color: #5d9058;
-    padding: 5px;
-    font-family: Arial, sans-serif;
-    border-bottom: 2px solid #ccc;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+  background-color: #5d9058;
+  padding: 5px;
+  font-family: Arial, sans-serif;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 
 
 h1{
-  text-align: center;
-  justify-content: center;
-  margin-left: 185px;
+text-align: center;
+justify-content: center;
 }
 
 nav {
-   padding: 15px; 
-   display: flex; 
-   justify-content: center;
-   gap: 20px; 
+ padding: 15px; 
+ display: flex; 
+ justify-content: center;
+ gap: 20px; 
+
 }
 nav a {
 color: white; 
@@ -38,161 +38,206 @@ padding: 10px 15px;
 }
 
 nav a:hover {
-    
+  
 background-color: #245c43; 
-    border-radius: 4px; 
+  border-radius: 4px; 
 }
 
 /*pesquisar*/
 #divBusca{
-    background-color:#E0EEEE;
-    border:solid 2px #5F9EA0;
-    border-radius: 10px;
-    width: 180px;
-    height: 33px;
-    display: center
-  }
-  
-  #txtBusca{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:30px;
-    width:80px;
-  }
-  
-  #btnBusca{
-    border:none;
-    float:right;
-    height:32px;
-    border-radius:0 7px 7px 0;
-    width:60px;
-    font-weight:bold;
-    background:#5F9EA0;
-  }
-  
-  #divBusca img{
-    float:left;
-    width: 24px; 
-  
-    height: 24px; 
-    margin-right: 5px; 
-  }
-  
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius: 10px;
+  width: 180px;
+  height: 33px;
+  display: center
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:30px;
+  width:80px;
+}
+
+#btnBusca{
+  border:none;
+  float:right;
+  height:32px;
+  border-radius:0 7px 7px 0;
+  width:60px;
+  font-weight:bold;
+  background:#5F9EA0;
+}
+
+#divBusca img{
+  float:left;
+  width: 24px; 
+
+  height: 24px; 
+  margin-right: 5px; 
+}
+
 /*dropdown*/
-  #unico{
-    background-color: #5d9058;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  #unico:hover{
-    background-color: #21cf69;
-  }
+#unico{
+  background-color: #5d9058;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#unico:hover{
+  background-color: #21cf69;
+}
 
 /*caixas*/
 section {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
 }
 
 .esq {
-    display: flex;
-    flex-direction: column;
-    flex: 2px;
-    margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  flex: 2px;
+  margin-left: 100px;
 }
 
 .dir {
-    display: flex;
-    flex-direction: column;
-    flex: 1px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1px;
+  gap: 20px;
 }
 
 .maior {
-    width: 100%;
-    height: 575px;
-    border: 1px solid black;
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
+  width: 100%;
+  height: 575px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #5d9058;
 }
 
 .maior p{
-    font-size: 25px;
-    text-align: center;
+  font-size: 25px;
+  text-align: center;
 }
 
 .igual {
-    width: 35vw;
-    height: 37vh;
-    border: 1px solid black;
-    margin-left: 60px; /* Mantida a margem à esquerda */
-    border-radius: 8px;
+  position: relative;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 60px; /* Mantida a margem à esquerda */
+  border-radius: 8px;
+  background-image: url(https://pantanaloficial.com.br/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-17-at-13.07.38.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  text-decoration: none;
 }
 
-.igual p{
-    text-align: center;
+.igual h3 {
+  position: absolute;
+  bottom: 0; /* Alinha o texto no rodapé */
+  left: 0;
+  width: 100%; /* Para garantir que o texto ocupe toda a largura */
+  padding: 10px;
+  background-color: rgba(93, 144, 88, 0.8); /* Fundo semitransparente */
+  color: white; /* Cor do texto */
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
-    
+
+.igual-2 {
+  position: relative;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 60px; /* Mantida a margem à esquerda */
+  border-radius: 8px;
+  background-image: url(https://pantanaloficial.com.br/wp-content/uploads/2024/10/whatsapp-image-2024-10-22-at-073616.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: black;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.igual-2 h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(93, 144, 88, 0.8); /* Mesmo fundo semitransparente */
+  color: white;
+  text-align: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 
 /*blog*/
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
 }
 
 .container h1 {
-    text-align: center;
-    
+  text-align: center;
+  
 }
 
 .blogs {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .blog-item {
-    background-color: #5d9058;
-    padding: 20px;
-    border: 1px solid #0c0c0c;
-    border-radius: 8px;
-    text-align: center;
-    width: 30%;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
+  background-color: #5d9058;
+  padding: 20px;
+  border: 1px solid #0c0c0c;
+  border-radius: 8px;
+  text-align: center;
+  width: 30%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);;
 }
 
 .blog-item img {
-    width: 150px; 
-    height: 150px; 
-    border-radius: 50%; 
-    border: 4px solid #333; 
-    object-fit: cover; 
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  border: 4px solid #333; 
+  object-fit: cover; 
 }
 
 
 .blog-item h3 {
-    font-size: 30px;
-    color: #000000;
-    margin: 15px 0 10px 0;
+  font-size: 30px;
+  color: #000000;
+  margin: 15px 0 10px 0;
 }
 
 .blog-item p {
-    font-size: 25px;
-    color: #000000;
+  font-size: 25px;
+  color: #000000;
 }
 
 /* .menor{
-  width: 800px;
-  height: 200px;
-  border: 1px solid black;
+width: 800px;
+height: 200px;
+border: 1px solid black;
 } */
