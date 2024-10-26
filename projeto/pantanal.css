@@ -92,7 +92,7 @@ background-color: #245c43;
 
 /*caixas*/
 section {
-  margin-top: 50px;
+  margin-top: 45px;
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -115,7 +115,7 @@ section {
 
 .maior {
   width: 100%;
-  height: 575px;
+  height: 585px;
   border: 1px solid black;
   position: relative;
   overflow: hidden;
@@ -123,16 +123,11 @@ section {
   background-color: #5d9058;
 }
 
-.maior p{
-  font-size: 25px;
-  text-align: center;
-}
-
-.igual {
+/* .igual {
   position: relative;
   height: 300px;
   border: 1px solid black;
-  margin-left: 60px; /* Mantida a margem à esquerda */
+  margin-left: 60px; 
   border-radius: 8px;
   background-image: url(https://pantanaloficial.com.br/wp-content/uploads/2024/08/WhatsApp-Image-2024-08-17-at-13.07.38.jpeg);
   background-size: cover;
@@ -140,50 +135,59 @@ section {
   background-repeat: no-repeat;
   color: black;
   text-decoration: none;
+} */
+
+.igual {
+  width: 36vw;
+  height: 38vh;
+  border: 1px solid black;
+  margin-left: 40px; /* Mantida a margem à esquerda */
+  border-radius: 8px;
+  background-color: #5d9058;
+  position: relative;
+
+}
+
+.igual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta a imagem para cobrir o espaço da caixa */
+  border-radius: 8px;
+}
+
+.igual-2{
+  width: 36vw;
+  height: 38vh;
+  border: 1px solid black;
+  margin-left: 40px; /* Mantida a margem à esquerda */
+  border-radius: 8px;
+  background-color: #5d9058;
+  position: relative;
+  overflow: hidden;
+}
+
+.igual-2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta a imagem para cobrir o espaço da caixa */
+  border-radius: 8px;
 }
 
 .igual h3 {
   position: absolute;
-  bottom: 0; /* Alinha o texto no rodapé */
-  left: 0;
-  width: 100%; /* Para garantir que o texto ocupe toda a largura */
-  padding: 10px;
+  bottom: 0;
+  margin: 0;
   background-color: rgba(93, 144, 88, 0.8); /* Fundo semitransparente */
-  color: white; /* Cor do texto */
-  text-align: center;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
 
-.igual-2 {
-  position: relative;
-  height: 300px;
-  border: 1px solid black;
-  margin-left: 60px; /* Mantida a margem à esquerda */
-  border-radius: 8px;
-  background-image: url(https://pantanaloficial.com.br/wp-content/uploads/2024/10/whatsapp-image-2024-10-22-at-073616.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: black;
-  text-decoration: none;
-  margin-top: 15px;
 }
 
 .igual-2 h3 {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(93, 144, 88, 0.8); /* Mesmo fundo semitransparente */
-  color: white;
-  text-align: center;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  margin: 0;
+  background-color: rgba(93, 144, 88, 0.8); /* Fundo semitransparente */
+
 }
-
-
 /*blog*/
 .container {
   max-width: 1200px;
