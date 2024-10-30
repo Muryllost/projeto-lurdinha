@@ -145,7 +145,7 @@ section {
   border-radius: 8px;
   background-color: #5d9058;
   position: relative;
-
+  overflow: hidden;
 }
 
 .igual img {
