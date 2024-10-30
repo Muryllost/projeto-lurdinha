@@ -144,8 +144,8 @@ section {
   margin-left: 40px; /* Mantida a margem à esquerda */
   border-radius: 8px;
   background-color: #5d9058;
-  position: relative;
-  overflow: hidden;
+  position: relative; /* posiçao fica relativa*/
+  overflow: hidden; /* nao deixa o conteudo ultrapassar o limte estabelecido*/
 }
 
 .igual img {
