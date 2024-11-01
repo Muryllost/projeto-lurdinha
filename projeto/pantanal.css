@@ -48,41 +48,46 @@ background-color: #245c43;
 }
 
 /pesquisar/
-#divBusca{
-  background-color:#E0EEEE;
-  border:solid 2px #5F9EA0;
-  border-radius: 10px;
-  width: 180px;
+#divBusca {
+  background-color: #ffffff; 
+  border: solid 2px #5F9EA0;
+  border-radius: 5px;
+  width: 180px; /* Ajuste da largura para ficar igual à segunda versão */
   height: 33px;
-  display: center
+  display: flex; /* Usando flex para centralizar o conteúdo */
+  align-items: center;
 }
 
-#txtBusca{
-  float:left;
-  background-color:transparent;
-  padding-left:5px;
-  font-size:18px;
-  border:none;
-  height:30px;
-  width:80px;
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-size: 18px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
 }
 
-#btnBusca{
-  border:none;
-  float:right;
-  height:32px;
-  border-radius:0 7px 7px 0;
-  width:60px;
-  font-weight:bold;
-  background:#5F9EA0;
+
+
+#btnBusca {
+  margin-left: auto;
+  border: none;
+  float: right;
+  height: 32px;
+  border-radius: 0 4px 5px 0;
+  width: 65px;
+  font-weight: bold;
+  background: #5F9EA0;
 }
 
-#divBusca img{
-  float:left;
-  width: 24px; 
-
-  height: 24px; 
-  margin-right: 5px; 
+#divBusca img {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
 }
 
 /dropdown/
